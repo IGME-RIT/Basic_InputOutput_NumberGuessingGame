@@ -35,7 +35,7 @@ typedef unsigned char uchar;	// allows me to use the type specified ("unsigned c
 using namespace std;
 
 // Define constants
-const uchar NUM_GUESSES = 7;    // actually, use "log[2] (ceil(max-min)+1) -- 2^guesses = range of values if player uses "binary search
+const uchar NUM_GUESSES = 7;    // actually, use "log[2] (ceil(max-min)+1) -- 2^guesses = range of values if player uses "binary search"
 const uchar MIN_VAL = 1;		// initialize a constant "uchar" (unsigned char) variable MIN_VAL, assign 1 to it
 const uchar MAX_VAL = 100;		// initialize a constant "uchar" variable variable MAX_VAL, assign 100 to it
 
@@ -94,7 +94,14 @@ int main()
 
 	cout << "\nThe target was " << target << "." << endl;						// if the number of attempts reach to the maxium and the guess is not right
 																				// output: The target was "the target value"
-	cout << ((guess == target) ? "You win" : "You lose") << "." << endl;		// ternary operator: (condition) ? (if_true) : (if_false)
+    if (guess == target)
+    {
+        cout << "You win." << endl;
+    }
+    else
+    {
+        cout << "You lose." << endl;
+    }
 
 	system("PAUSE");															// makes the "press any key to continue prompt"
 	return 0;

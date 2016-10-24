@@ -5,7 +5,7 @@ else()
 cmake_minimum_required (VERSION 3.0)
 endif()
 
-project(Basic-2d-array)
+project(number-guessing-game)
 
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 

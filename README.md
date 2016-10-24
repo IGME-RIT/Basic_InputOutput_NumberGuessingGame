@@ -1,6 +1,6 @@
 # Basic Input/Output NumberGuessing Game
 
-This tutorial is a number guessing game where illustrates the use of selection statements and standard output. It relates to the concept of unsigned char, function srand, function target, function printf, function rand, function c_str, ternary operator.
+This tutorial is a number guessing game where illustrates the use of selection statements and standard output. It relates to the concept of unsigned char, function srand, function target, function printf, function rand, function c_str.
 
 # Setup
 
