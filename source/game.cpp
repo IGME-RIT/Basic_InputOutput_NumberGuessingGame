@@ -103,7 +103,7 @@ int main()
         cout << "You lose." << endl;
     }
 
-	system("PAUSE");															// makes the "press any key to continue prompt"
+	cin.get();															// makes the "press any key to continue prompt"
 	return 0;
 }
 
