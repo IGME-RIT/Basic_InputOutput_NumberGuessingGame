@@ -1,14 +1,14 @@
 series: C++ IO
-title: Number Guessing Game
+title: Number Guessing Game C Strings
 author:
   name: David I. Schwartz, Ph.D.
   email: 
   github: https://github.com/IGME-RIT
-description: Using concepts from the basic io demo, build a small console game.
+description: Using concepts from the C strings demo, build a small console game.
 language: C++
 tags:
   - Core
 extra_resources:
 connections:
   - series: C++ IO
-    title: Basic Console IO
+    title: C Strings
