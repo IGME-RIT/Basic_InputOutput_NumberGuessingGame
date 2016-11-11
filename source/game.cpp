@@ -1,5 +1,5 @@
 /*
-NumberGuessingGame
+Number Guessing Game
 (c) 2016
 original authors: Leigh Raze
 Written under the supervision of David I. Schwartz, Ph.D., and
@@ -16,11 +16,6 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
-*	This tutorial is a number guessing game where illustrates the use of 
-    selection statements and standard output.
-*	It relates to the concept of unsigned char, function srand,
-    function target, function printf, function rand, function c_str, ternary operator.
-    
 */
 
 
@@ -54,8 +49,7 @@ int main()
 
     srand((unsigned int)time(nullptr)); // seeds the rng to ensure different values every time
                                         // srand: to initialize random number generator: http://www.cplusplus.com/reference/cstdlib/srand/?kw=srand
-    target = 1;// rand() % 100 + 1;          // target: to get a pointer to target: http://www.cplusplus.com/reference/functional/function/target/
-                                        // rand: to generate random number: http://www.cplusplus.com/reference/cstdlib/rand/
+    target = rand() % 100 + 1;          // rand: to generate random number: http://www.cplusplus.com/reference/cstdlib/rand/
                                         // put the value of target in the range 1 to 100
 
 

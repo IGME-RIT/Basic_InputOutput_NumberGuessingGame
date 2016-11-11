@@ -1,6 +1,7 @@
-# Basic Input/Output NumberGuessing Game
+# Basic C++: Number Guessing Game
 
-This tutorial is a number guessing game where illustrates the use of selection statements and standard output. It relates to the concept of unsigned char, function srand, function target, function printf, function rand, function c_str.
+This example is more of a demonstration of the previous concepts used in a program.
+It also introduces the use of rand(), and using time as a seed.
 
 # Setup
 
