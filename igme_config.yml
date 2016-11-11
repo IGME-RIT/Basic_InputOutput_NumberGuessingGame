@@ -8,6 +8,7 @@ description: A small console game using concepts from previous demos.
 language: C++
 tags:
   - Core
+  - Input
 extra_resources:
 connections:
   - series: Basic C++
